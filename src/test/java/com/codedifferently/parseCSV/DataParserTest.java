@@ -13,6 +13,7 @@ public class DataParserTest {
 
     @Before
     public void setUp(){
+
         csvRawData = Source.data;
     }
 
@@ -26,7 +27,7 @@ public class DataParserTest {
                         "Losses: 5\n"+
                         "Draws: 9\n"+
                         "Goals: 87\n"+
-                        "Goals Allowed:45\n"+
+                        "GoalsAllowed: 45\n"+
                         "Points: 77";
         String actual = teams.get(2).toString();
         Assert.assertEquals(expected, actual);
