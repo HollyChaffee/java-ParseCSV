@@ -88,7 +88,7 @@ public class Team {
                 "Losses: " + losses + '\n' +
                 "Draws: " + draws + '\n' +
                 "Goals: " + goals + '\n' +
-                "GoalsAllowed: " + goalsAllowed + '\n' +
+                "Goals Allowed: " + goalsAllowed + '\n' +
                 "Points: " + points;
 
     }
